@@ -1,1 +1,8 @@
-{"version": 1,"build": {"packages": {"php": "8.4"}}} 
+{
+  "version": 1,
+  "build": {
+    "packages": {
+      "php": "8.4"
+    }
+  }
+}
