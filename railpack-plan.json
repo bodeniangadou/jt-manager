@@ -1,7 +1,10 @@
 {
-  "php": "8.4",
+  "php": "8.3",
+  "composer": {
+    "flags": "--ignore-platform-reqs --no-scripts"
+  },
   "build": {
-    "cmd": "composer install --ignore-platform-reqs --no-scripts && npm install && npm run build"
+    "cmd": "composer install --ignore-platform-reqs && npm install && npm run build"
   },
   "start": {
     "cmd": "php artisan serve --host=0.0.0.0 --port=$PORT"
